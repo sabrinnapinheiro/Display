@@ -1,66 +1,79 @@
 /*Importação da fonte*/
 @import url('https://fonts.cdnfonts.com/css/the-amazing-spider-man');
 @import url('https://fonts.cdnfonts.com/css/amazing-spider-man');
+
 /*reset básico*/
-* { 
-box-sizing: border-box;
-margin: 0%;
-padding: 0%;
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
 }
+
 /*mudanças no conteúdo da página*/
 body {
     text-align: center;
-    background-color: dodgerblue; 
+    background-color: dodgerblue;
     font-family: 'Amazing Spider Man', sans-serif;
     font-family: 'Amazing Spider Man slant', sans-serif;
 }
+
 header {
-    background-color:black;
+    background-color: dodgerblue;
     color: aliceblue;
-    padding: 20px; /*espaçamento interno*/
-    font-family: 'THE AMAZING SPIDER-MAN', sans-serif; /*fonte do título*/
+    padding: 20px;
+    /*espaçamento interno*/
+    font-family: 'THE AMAZING SPIDER-MAN', sans-serif;
+    /*fonte do título*/
 
 }
+
 nav a {
     color: aliceblue;
-    text-decoration: none; /*decoração do link*/
-    display: inline-block; /*abertura para mexer no display dos link*/
-    margin: 10px; /*espaçamentos estre os links*/
-    padding: 10px 20px; /* espaçamento interno */
-    background-color:dodgerblue;
+    text-decoration: none;
+    /*decoração do link*/
+    display: inline-block;
+    /*abertura para mexer no display dos link*/
+    margin: 10px;
+    /*espaçamentos estre os links*/
+    padding: 10px 20px;
+    /* espaçamento interno */
+    background-color: dodgerblue;
     border-radius: 10px;
 
 }
+
 nav a:hover {
-    background-color:dodgerblue
-    
+    background-color: dodgerblue
 }
+
 nav {
-    background-color:dodgerblue;
+    background-color: dodgerblue;
 }
+
 .card {
     display: inline-block;
     width: 300px;
     margin: 15px;
     padding: 10px;
-    background-color:dodgerblue;
+    background-color: dodgerblue;
     border-radius: 10px;
 }
+
 .card img {
     width: 100%;
     height: 100px;
 }
+
 .card:hover {
     display: inline-block;
     width: 315px;
     margin: 15px;
     padding: 10px;
-    background-color:aliceblue;
+    background-color: aliceblue;
     border-radius: 10px;
-    
 }
 
-#personagens{
+#personagens {
     background-image: url(./IMAGENS/banner.jpg);
     /*backgroud-size: mexe no tamanho do plano de fundo/imagem/ cover= esteticar a imagem/ contain = mantem o tamanho original 
     backgroud- repeat: tira a repetição ou coloca a repetição / no-repeat = impede que a imagem se repita 
@@ -68,25 +81,31 @@ nav {
     background-size: cover;
 }
 
-#teen-wolf{
-    background-color: black;
-   
+#teen-wolf {
+    background-color: aliceblue;
     margin: 10px;
-    
     padding: 10px;
     border-radius: 10px;
 }
-.episódios{
-    width: 400px;
+
+.episódios {
+    width: 600px;
     display: inline-block;
+    background-color: dodgerblue;
+    border-radius: 15px;
 }
 
-.episódios img{
+.episódios img {
     width: 350px;
     height: 200px;
 }
 
+#footer {
+    background-color: dodgerblue;
+    color: aliceblue;
+}
 
+#principais {
+    color: aliceblue;
+}
 
-
-   

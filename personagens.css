@@ -1,0 +1,57 @@
+/*Importação da fonte*/
+@import url('https://fonts.cdnfonts.com/css/the-amazing-spider-man');
+@import url('https://fonts.cdnfonts.com/css/amazing-spider-man');
+
+/*reset básico*/
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    /*Mudando a cor do BODY*/
+    background-color: aliceblue;
+}
+
+#personagem {
+    /*Mudando a cor e o tamanho da pagina, dos nossos personagens*/
+    background-color: aliceblue;
+    padding: 50px 20px;
+}
+
+#personagem h2 {
+    /*Arrumando o Titulo h2, dos personagens*/
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.container-personagens {
+    /*Para dividir a seção, abrindo um container para toda a nossa seção*/
+    display: flex;
+    /*Ativa o display do tipo FLEXBOX*/
+
+    flex-wrap: wrap;
+    /*Permite quebrar a linha, caso não tenha espaço o suficiente*/
+
+    gap: 30px;
+    /*Espaçamento entre os cards*/
+
+    justify-content: center;
+    /*Centralizar os cars no eixo principal*/
+
+    align-items: stretch;
+    /*Deixa todos os itens "esticados" ou seja do mesmo tamanho*/
+}
+
+/*Alterar o estilo dos cards*/
+.item {
+    width: 250px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex; /*Ativar o flexbox*/
+    flex-direction: column;
+}
